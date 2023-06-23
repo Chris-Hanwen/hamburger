@@ -1,0 +1,6 @@
+.meals{
+    position: absolute;
+    top:100px;
+    bottom: 100px;
+    overflow: auto;
+}

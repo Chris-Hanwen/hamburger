@@ -1,0 +1,35 @@
+.CartDetails{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    width: 700px;
+    padding-bottom: 140px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-height: 600px;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.Title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Clear{
+    color:#aaa
+}
+.Clear span{
+    margin-left: 10px;
+}
+
+.MealList{
+    overflow: auto;
+}

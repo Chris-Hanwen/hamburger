@@ -1,0 +1,64 @@
+.Checkout{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    background-color: #eee;
+    padding: 20px;
+}
+.close{
+    color: #000;
+    font-size: 20px;
+}
+
+.Header{
+    display: flex;
+    border-bottom: 1px solid #f2f2f2;
+    height: 80px;
+    align-items: center;
+}
+.Meals{
+    
+    max-height: 500px;
+    overflow: auto;
+}
+
+.MealsDesc{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0 40px;
+}
+
+.Footer{
+    position: relative;
+    height: 100px;
+    border-top: 1px dashed #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.TotalPrice::before{
+    content: 'Total $';
+}
+
+.Footer::before,
+.Footer::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+    top: -10px;
+    left: -50px;
+}
+
+.Footer::after{
+    left: auto;
+    right: -50px;
+}
