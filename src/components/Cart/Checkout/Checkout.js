@@ -19,7 +19,7 @@ const Checkout = (props) => {
       </div>
       <div className={classes.MealsDesc}>
         <header className={classes.Header}>
-          <h2 className={classes.Title}>餐品详情</h2>
+          <h2 className={classes.Title}>Shopping Cart</h2>
         </header>
         <div className={classes.Meals}>
           {ctx.items.map((item) => (

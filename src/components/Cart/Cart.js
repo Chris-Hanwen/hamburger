@@ -43,7 +43,7 @@ const Cart = () => {
         )}
       </div>
       {ctx.totalAmount === 0 ? (
-        <p className={classes.NoMeal}>未选购商品</p>
+        <p className={classes.NoMeal}>Your Cart is empty</p>
       ) : (
         <p className={classes.Price}>{ctx.totalPrice}</p>
       )}

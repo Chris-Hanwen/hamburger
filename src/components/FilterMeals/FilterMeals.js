@@ -28,7 +28,7 @@ const FilterMeals = (props) => {
           value={keyword}
           onChange={InputChangeHandler}
           type="text"
-          placeholder="请输入关键字"
+          placeholder="What can we help you find today?"
           className={classes.SearchInput}
         />
         <FontAwesomeIcon icon={faSearch} className={classes.SearchIcon} />

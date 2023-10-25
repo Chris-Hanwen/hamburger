@@ -30,17 +30,17 @@ const CartDetails = () => {
     <Backdrop onClick={cancelHandler}>
       {showConfirm && (
         <Confirm
-          confirmText={"确认清空购物车吗"}
+          confirmText={"Remove all items?"}
           onCancel={cancelHandler}
           onOk={okHandler}
         />
       )}
       <div className={classes.CartDetails} onClick={(e) => e.stopPropagation}>
         <header className={classes.Header}>
-          <h2 className={classes.Title}>餐品详情</h2>
+          <h2 className={classes.Title}>Shopping Cart</h2>
           <div className={classes.Clear} onClick={showConfirmHandler}>
             <FontAwesomeIcon icon={faTrash} />
-            <span>清空购物车</span>
+            <span>Delete all items</span>
           </div>
         </header>
         <div className={classes.MealList}>
